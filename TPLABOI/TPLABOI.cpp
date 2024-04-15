@@ -2,12 +2,21 @@
 //
 
 #include <iostream>
+#include "cDragon.h"
+#include "cJinete.h"
+#include "cVikingo.h"
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
-    std::cout << "Funciona o que??" << std::endl;
+    cDragon Dragoncito("Chimuelo", "Negrito","Mediano","Negro", "Domado");
+    cJinete Jinetito("Milagros", "Menendez", "Mili", "2002-03-26", "Fuerte", &Dragoncito);
+    cVikingo Vikinguito("Juliana", "Aguilar", "Frente");
+
+ 
 }
+
+
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
 // Depurar programa: F5 o menú Depurar > Iniciar depuración
