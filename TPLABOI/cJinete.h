@@ -26,6 +26,12 @@ private:
 
 public:
 	cJinete(string Nombre, string Apellido, string Apodo, string FecNac, string Caracteristicas, cDragon* miDragon);
+	~cJinete();
+	string getNombre();
+	string getApellido();
+	string getApodo();
+	string getFecNac();
+	string getCaracteristicas();
 	void IncorporarDragon();
 };
 

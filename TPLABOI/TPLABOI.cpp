@@ -9,10 +9,15 @@
 
 int main()
 {
-    cDragon Dragoncito("Chimuelo", "Negrito","Mediano","Negro", "Domado");
-    cJinete Jinetito("Milagros", "Menendez", "Mili", "2002-03-26", "Fuerte", &Dragoncito);
+    cDragon Dragoncito("Chimuelo", "Negrito", "Mediano", "Negro", "Domado");
+    //inete Jinetito("Milagros", "Menendez", "Mili", "2002-03-26", "Fuerte", &Dragoncito);
     cVikingo Vikinguito("Juliana", "Aguilar", "Frente");
+    cJinete Jinetito("Tatiana", "Villegas", "Tati", "2004-04-15", "Rapida", &Dragoncito);
 
+    cout << Jinetito.getNombre() << endl;
+    cout << Jinetito.getApellido() << endl;
+    cout << Jinetito.getApodo() << endl;
+    cout << Jinetito.getCaracteristicas() << endl;
  
 }
 
